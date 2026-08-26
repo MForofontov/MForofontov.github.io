@@ -1,0 +1,150 @@
+{
+  "name": "Mykyta Forofontov",
+  "title": "Senior Software Engineer / SDET",
+  "location": {
+    "city": "Porto",
+    "country": "Portugal"
+  },
+  "contact": {
+    "email": "mykyta.forofontov@hotmail.com",
+    "linkedin": "https://linkedin.com/in/mykyta-forofontov",
+    "github": "https://github.com/MForofontov",
+    "website": "https://mforofontov.github.io/"
+  },
+  "summary": "Senior Software Engineer / SDET with 6+ years of experience building backend systems, internal platforms, automation tooling, and production-like test infrastructure. Works at the intersection of software engineering, test automation, platform engineering, and DevOps, with a focus on improving reliability, delivery speed, and engineering efficiency.",
+  "experience": [
+    {
+      "title": "Senior DevOps Engineer — Platform & Test Infrastructure",
+      "company": "Five9",
+      "location": "Porto, Portugal",
+      "workMode": "Hybrid",
+      "startDate": "2026-06",
+      "endDate": null,
+      "highlights": [
+        "Own and evolve platform and test infrastructure supporting QA, Development, and DevOps workflows",
+        "Design internal platforms and full-stack tools using Python, Django, Flask, FastAPI, React, TypeScript, Redis, and SQL",
+        "Infrastructure automation with Terraform, Ansible, AWX, Rundeck, Python, and shell scripting",
+        "Drive VMware to OpenStack migration including provisioning, validation, and performance optimization",
+        "Own QA and Pre-Production environment architecture and reliability",
+        "Built data-ingestion pipelines consolidating test metadata and artifacts into BigQuery",
+        "Self-service operational workflows via automation and orchestration platforms",
+        "Security vulnerability remediation across infrastructure and application dependencies",
+        "Observability with Grafana, Prometheus, LogicMonitor, vCenter, and Elastic Stack",
+        "System, integration, performance, and load-testing integrated into release pipelines"
+      ]
+    },
+    {
+      "title": "DevOps Engineer II — Platform & Test Infrastructure",
+      "company": "Five9",
+      "location": "Porto, Portugal",
+      "workMode": "Hybrid",
+      "startDate": "2025-01",
+      "endDate": "2026-06",
+      "highlights": [
+        "Developed internal applications and automation services using Python, Django, Flask, FastAPI, React, TypeScript, Redis, and SQL",
+        "Built infrastructure provisioning with Terraform, Ansible, AWX, Rundeck",
+        "Maintained QA and Pre-Production environments for integration, system, performance, and release testing",
+        "Contributed to VMware to OpenStack migration",
+        "Monitoring and observability with Grafana, Prometheus, LogicMonitor, Elastic Stack",
+        "Automated system, integration, and load-testing workflows in CI/CD",
+        "Root-cause analysis for distributed system failures"
+      ]
+    },
+    {
+      "title": "Software Engineer III",
+      "company": "GIMM",
+      "location": "Lisbon, Portugal",
+      "workMode": "Remote",
+      "startDate": "2024-06",
+      "endDate": "2025-02",
+      "highlights": [
+        "Internal REST APIs and backend services using Django, Flask, and NestJS",
+        "Backend integrations and data-processing workflows for research platforms",
+        "CI/CD pipelines for Python applications",
+        "Code reviews and mentoring junior developers"
+      ]
+    },
+    {
+      "title": "Software Engineer II",
+      "company": "GIMM",
+      "location": "Lisbon, Portugal",
+      "workMode": "Remote",
+      "startDate": "2023-06",
+      "endDate": "2024-06",
+      "highlights": [
+        "REST APIs with Django and Flask integrated with Next.js frontends",
+        "PostgreSQL schema design and query optimization",
+        "CI/CD pipelines and automated tests with pytest and Jest",
+        "Reusable Python tooling for API integrations"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Institute for Molecular Medicine",
+      "location": "Lisbon, Portugal",
+      "workMode": "Remote",
+      "startDate": "2022-06",
+      "endDate": "2023-06",
+      "highlights": [
+        "Internal dashboards and automation tools with Django, Flask, Next.js, and PostgreSQL",
+        "Celery and Redis for async processing in Dockerized environments",
+        "Data-processing algorithms on HPC infrastructure",
+        "Backend automation for data preparation, processing, and reporting"
+      ]
+    },
+    {
+      "title": "Junior Software Engineer",
+      "company": "Institute for Molecular Medicine",
+      "location": "Lisbon, Portugal",
+      "workMode": "Remote",
+      "startDate": "2021-06",
+      "endDate": "2022-06",
+      "highlights": [
+        "Flask-based REST APIs for internal service-oriented systems",
+        "Automated data-processing workflows in HPC environments",
+        "Unit and integration testing with pytest and Jest",
+        "Backend services and internal tooling support"
+      ]
+    },
+    {
+      "title": "Data Science Intern",
+      "company": "Centro de Estatística e Aplicações da Universidade de Lisboa",
+      "location": "Lisbon, Portugal",
+      "workMode": "Remote",
+      "startDate": "2021-04",
+      "endDate": "2021-06",
+      "highlights": [
+        "Statistical and exploratory data analysis with Python and R",
+        "Validation criteria for Protected Designation of Origin standards and anti-counterfeiting controls"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Master's in Bioinformatics and Computational Biology",
+      "institution": "University of Lisbon",
+      "location": "Lisbon, Portugal",
+      "startDate": "2020-09",
+      "endDate": "2023-12"
+    },
+    {
+      "degree": "Biology, Minor in Computer Science",
+      "institution": "University of Algarve",
+      "location": "Faro, Portugal",
+      "startDate": "2017-09",
+      "endDate": "2020-06"
+    }
+  ],
+  "skills": {
+    "programmingLanguages": ["Python", "TypeScript", "JavaScript", "SQL", "Bash", "HCL", "HTML", "CSS", "R"],
+    "backendAndWeb": ["Django", "Flask", "FastAPI", "NestJS", "React", "Next.js"],
+    "testingAndAutomation": ["pytest", "Jest", "Selenium", "Playwright", "BrowserStack", "Allure", "k6"],
+    "databases": ["PostgreSQL", "MySQL", "SQLite", "Redis", "CockroachDB", "BigQuery"],
+    "messaging": ["Kafka", "RabbitMQ", "Celery", "BullMQ", "Debezium"],
+    "infrastructureAsCode": ["Terraform", "Ansible", "AWX", "Rundeck"],
+    "containers": ["Docker", "Docker Swarm", "Kubernetes", "Nginx", "Gunicorn"],
+    "cloudAndInfra": ["AWS", "GCP", "OpenStack", "VMware", "Cloudflare", "Vercel", "vCenter"],
+    "monitoring": ["Grafana", "Prometheus", "Elastic Stack", "OpenTelemetry", "LogicMonitor"],
+    "tools": ["Git", "GitHub", "GitLab", "Jira", "Notion", "Keycloak", "Clerk", "Vite", "Postman", "DBeaver", "Linux", "Windows", "macOS"]
+  }
+}
