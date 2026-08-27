@@ -1,6 +1,6 @@
 {
   "name": "Mykyta Forofontov",
-  "title": "Senior Software Engineer / SDET",
+  "title": "Senior Software Engineer / SDET / DevOps",
   "location": {
     "city": "Porto",
     "country": "Portugal"
@@ -11,7 +11,7 @@
     "github": "https://github.com/MForofontov",
     "website": "https://mforofontov.github.io/"
   },
-  "summary": "Senior Software Engineer / SDET with 6+ years of experience building backend systems, internal platforms, automation tooling, and production-like test infrastructure. Works at the intersection of software engineering, test automation, platform engineering, and DevOps, with a focus on improving reliability, delivery speed, and engineering efficiency.",
+  "summary": "Senior Software Engineer / SDET / DevOps with 6+ years of experience building backend systems, internal platforms, automation tooling, and production-like test infrastructure. Works at the intersection of software engineering, test automation, platform engineering, and DevOps, with a focus on improving reliability, delivery speed, and engineering efficiency.",
   "experience": [
     {
       "title": "Senior DevOps Engineer — Platform & Test Infrastructure",
