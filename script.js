@@ -3,7 +3,7 @@
   if (year) year.textContent = String(new Date().getFullYear());
 
   const sections = [...document.querySelectorAll('main section[id]')];
-  const navLinks = [...document.querySelectorAll('.side-nav a')];
+  const navLinks = [...document.querySelectorAll('.section-nav a')];
   if (!sections.length || !navLinks.length) return;
 
   const setActive = (id) => {
@@ -22,7 +22,7 @@
         .sort((a, b) => b.intersectionRatio - a.intersectionRatio);
       if (visible[0]) setActive(visible[0].target.id);
     },
-    { rootMargin: '-20% 0px -65% 0px', threshold: [0.1, 0.35, 0.6] }
+    { rootMargin: '-25% 0px -60% 0px', threshold: [0.1, 0.35, 0.6] }
   );
 
   sections.forEach((section) => observer.observe(section));
