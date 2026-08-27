@@ -4,8 +4,8 @@
   "description": "Senior Software Engineer / SDET / DevOps — CV and professional profile",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#eef2f7",
-  "theme_color": "#121826",
+  "background_color": "#0e1218",
+  "theme_color": "#0e1218",
   "lang": "en",
   "icons": [
     {

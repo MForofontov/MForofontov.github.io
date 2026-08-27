@@ -1,17 +1,17 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#e8eef8"/>
-      <stop offset="55%" stop-color="#f5f7fb"/>
-      <stop offset="100%" stop-color="#dce7f5"/>
+      <stop offset="0%" stop-color="#0e1218"/>
+      <stop offset="55%" stop-color="#121826"/>
+      <stop offset="100%" stop-color="#161b24"/>
     </linearGradient>
   </defs>
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <circle cx="980" cy="120" r="220" fill="#2f6fed" opacity="0.12"/>
-  <circle cx="160" cy="520" r="180" fill="#121826" opacity="0.06"/>
-  <text x="80" y="210" font-family="Georgia, serif" font-size="72" font-weight="700" fill="#121826">Mykyta Forofontov</text>
-  <text x="80" y="280" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#3d4a63">Senior Software Engineer / SDET / DevOps</text>
-  <text x="80" y="360" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#5a6880">Platform · Test infrastructure · Backend · Porto, Portugal</text>
-  <rect x="80" y="420" width="120" height="6" rx="3" fill="#2f6fed"/>
-  <text x="80" y="480" font-family="ui-monospace, monospace" font-size="22" fill="#2f6fed">mforofontov.github.io</text>
+  <circle cx="980" cy="120" r="220" fill="#6b9fff" opacity="0.18"/>
+  <circle cx="160" cy="520" r="180" fill="#6b9fff" opacity="0.08"/>
+  <text x="80" y="210" font-family="Georgia, serif" font-size="72" font-weight="700" fill="#eef2f7">Mykyta Forofontov</text>
+  <text x="80" y="280" font-family="Helvetica, Arial, sans-serif" font-size="34" fill="#b7c0ce">Senior Software Engineer / SDET / DevOps</text>
+  <text x="80" y="360" font-family="Helvetica, Arial, sans-serif" font-size="26" fill="#8793a6">Platform · Test infrastructure · Backend · Porto, Portugal</text>
+  <rect x="80" y="420" width="120" height="6" rx="3" fill="#6b9fff"/>
+  <text x="80" y="480" font-family="ui-monospace, monospace" font-size="22" fill="#8bb4ff">mforofontov.github.io</text>
 </svg>
