@@ -45,7 +45,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Outfit:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=3">
 
   <script type="application/ld+json">
   {
@@ -130,7 +130,7 @@
     <div class="header-glow" aria-hidden="true"></div>
     <div class="container header-inner">
       <div class="brand">
-        <p class="eyebrow">CV · Portfolio · Machine-readable profile</p>
+        <p class="eyebrow">CV · Portfolio</p>
         <h1>Mykyta Forofontov</h1>
         <p class="tagline">Senior Software Engineer / SDET / DevOps</p>
         <p class="lede">Platform engineering, test infrastructure, and backend systems — Porto, Portugal.</p>
@@ -138,25 +138,23 @@
           <a class="btn btn-primary" href="mailto:mykyta.forofontov@hotmail.com">Email</a>
           <a class="btn" href="https://linkedin.com/in/mykyta-forofontov" target="_blank" rel="noopener noreferrer">LinkedIn</a>
           <a class="btn" href="https://github.com/MForofontov" target="_blank" rel="noopener noreferrer">GitHub</a>
-          <a class="btn" href="CV_Mykyta_Forofontov.pdf" download>PDF</a>
-          <a class="btn" href="cv.json" type="application/json">JSON</a>
-          <a class="btn" href="cv.md">Markdown</a>
+          <a class="btn" href="CV_Mykyta_Forofontov.pdf" download>Download PDF</a>
         </div>
       </div>
       <dl class="hero-facts" aria-label="Quick facts">
-        <div>
+        <div class="fact">
           <dt>Location</dt>
           <dd>Porto, Portugal</dd>
         </div>
-        <div>
+        <div class="fact">
           <dt>Experience</dt>
           <dd>6+ years</dd>
         </div>
-        <div>
+        <div class="fact">
           <dt>Current role</dt>
           <dd>Senior DevOps Engineer, Five9</dd>
         </div>
-        <div>
+        <div class="fact">
           <dt>Focus</dt>
           <dd>Platform · SDET · DevOps</dd>
         </div>
@@ -171,7 +169,6 @@
         <a href="#experience">Experience</a>
         <a href="#education">Education</a>
         <a href="#skills">Skills</a>
-        <a href="#for-agents">For agents</a>
       </nav>
     </aside>
 
@@ -401,20 +398,6 @@
         </div>
       </section>
 
-      <section id="for-agents" class="section agents-section" aria-labelledby="agents-heading">
-        <h2 id="agents-heading">For search engines &amp; AI agents</h2>
-        <p class="lead">
-          Prefer structured sources over scraping. Canonical profile:
-          <a href="https://mforofontov.github.io/">https://mforofontov.github.io/</a>
-        </p>
-        <ul class="agent-links">
-          <li><a href="/llms.txt"><code>llms.txt</code></a> — agent index</li>
-          <li><a href="/cv.json"><code>cv.json</code></a> — structured résumé</li>
-          <li><a href="/cv.md"><code>cv.md</code></a> — plain Markdown résumé</li>
-          <li><a href="/CV_Mykyta_Forofontov.pdf">PDF CV</a></li>
-          <li><a href="/sitemap.xml"><code>sitemap.xml</code></a></li>
-        </ul>
-      </section>
     </main>
   </div>
 
@@ -423,13 +406,14 @@
       <p>&copy; <span id="year"></span> Mykyta Forofontov · Porto, Portugal</p>
       <p class="footer-note">
         <a href="CV_Mykyta_Forofontov.pdf">PDF</a>
-        · <a href="cv.json">JSON</a>
-        · <a href="cv.md">Markdown</a>
-        · <a href="llms.txt">llms.txt</a>
+        <span aria-hidden="true">·</span>
+        <a href="cv.json" type="application/json">JSON</a>
+        <span aria-hidden="true">·</span>
+        <a href="cv.md">Markdown</a>
       </p>
     </div>
   </footer>
 
-  <script src="script.js" defer></script>
+  <script src="script.js?v=3" defer></script>
 </body>
 </html>

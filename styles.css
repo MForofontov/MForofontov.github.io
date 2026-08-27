@@ -218,23 +218,30 @@ a:focus-visible,
 
 .hero-facts {
   margin: 0;
-  padding: 1.15rem 1.25rem;
+  padding: 1.25rem 1.35rem;
   display: grid;
-  gap: 0.95rem;
-  background: var(--surface);
+  gap: 1rem;
+  background: var(--surface-solid);
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  backdrop-filter: blur(10px);
   box-shadow: var(--shadow);
   animation: rise 0.7s var(--ease) 0.18s both;
 }
 
-.hero-facts div {
+.hero-facts .fact {
   display: grid;
-  gap: 0.15rem;
+  gap: 0.2rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--line);
+}
+
+.hero-facts .fact:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
 }
 
 .hero-facts dt {
+  margin: 0;
   font-family: var(--font-mono);
   font-size: 0.68rem;
   letter-spacing: 0.08em;
@@ -244,8 +251,10 @@ a:focus-visible,
 
 .hero-facts dd {
   margin: 0;
+  font-size: 0.98rem;
   font-weight: 600;
   color: var(--ink);
+  line-height: 1.35;
 }
 
 /* Layout */
@@ -320,8 +329,7 @@ a:focus-visible,
 /* Roles */
 .role,
 .edu-item,
-.skill-group,
-.agents-section {
+.skill-group {
   background: var(--surface-solid);
   border: 1px solid var(--line);
   border-radius: var(--radius);
@@ -443,30 +451,6 @@ a:focus-visible,
   border-radius: 7px;
 }
 
-/* Agents */
-.agents-section {
-  padding: 1.4rem 1.5rem;
-}
-
-.agents-section .lead {
-  margin-bottom: 1rem;
-}
-
-.agent-links {
-  margin: 0;
-  padding-left: 1.15rem;
-  color: var(--ink-soft);
-}
-
-.agent-links li {
-  margin-bottom: 0.4rem;
-}
-
-.agent-links code {
-  font-family: var(--font-mono);
-  font-size: 0.85em;
-}
-
 /* Footer */
 .site-footer {
   border-top: 1px solid var(--line);
@@ -575,7 +559,6 @@ a:focus-visible,
   .sidebar,
   .site-footer,
   .skip-link,
-  .agents-section,
   .hero-facts {
     display: none !important;
   }
