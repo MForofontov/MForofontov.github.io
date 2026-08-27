@@ -98,7 +98,8 @@ a:focus-visible,
 .site-header {
   position: relative;
   overflow: hidden;
-  padding: 3.75rem 0 1.5rem;
+  padding: 3.75rem 0 2rem;
+  border-bottom: 1px solid var(--line);
 }
 
 .header-glow {
@@ -256,7 +257,7 @@ a:focus-visible,
   display: grid;
   grid-template-columns: 168px minmax(0, 1fr);
   gap: 2.5rem;
-  padding: 2rem 0 4.5rem;
+  padding: 2.25rem 0 4.5rem;
   align-items: start;
 }
 
