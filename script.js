@@ -3,7 +3,7 @@
   if (year) year.textContent = String(new Date().getFullYear());
 
   const sections = [...document.querySelectorAll('main section[id]')];
-  const navLinks = [...document.querySelectorAll('.section-nav a')];
+  const navLinks = [...document.querySelectorAll('.side-nav a')];
   if (!sections.length || !navLinks.length) return;
 
   const setActive = (id) => {
