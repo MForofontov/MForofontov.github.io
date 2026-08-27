@@ -1,15 +1,27 @@
 {
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "schemaVersion": "1.1.0",
+  "updated": "2026-08-27",
+  "id": "https://mforofontov.github.io/cv.json",
   "name": "Mykyta Forofontov",
   "title": "Senior Software Engineer / SDET / DevOps",
   "location": {
     "city": "Porto",
-    "country": "Portugal"
+    "country": "Portugal",
+    "countryCode": "PT"
   },
   "contact": {
     "email": "mykyta.forofontov@hotmail.com",
     "linkedin": "https://linkedin.com/in/mykyta-forofontov",
     "github": "https://github.com/MForofontov",
     "website": "https://mforofontov.github.io/"
+  },
+  "formats": {
+    "html": "https://mforofontov.github.io/",
+    "json": "https://mforofontov.github.io/cv.json",
+    "markdown": "https://mforofontov.github.io/cv.md",
+    "pdf": "https://mforofontov.github.io/CV_Mykyta_Forofontov.pdf",
+    "llms": "https://mforofontov.github.io/llms.txt"
   },
   "summary": "Senior Software Engineer / SDET / DevOps with 6+ years of experience building backend systems, internal platforms, automation tooling, and production-like test infrastructure. Works at the intersection of software engineering, test automation, platform engineering, and DevOps, with a focus on improving reliability, delivery speed, and engineering efficiency.",
   "experience": [

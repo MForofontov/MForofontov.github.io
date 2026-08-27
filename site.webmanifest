@@ -1,0 +1,18 @@
+{
+  "name": "Mykyta Forofontov",
+  "short_name": "Forofontov",
+  "description": "Senior Software Engineer / SDET / DevOps — CV and professional profile",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#eef2f7",
+  "theme_color": "#121826",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

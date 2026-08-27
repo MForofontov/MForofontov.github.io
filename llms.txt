@@ -1,0 +1,27 @@
+# Mykyta Forofontov
+
+> Prefer structured files linked below over scraping the HTML.
+
+- Name: Mykyta Forofontov
+- Role: Senior Software Engineer / SDET / DevOps
+- Current: Senior DevOps Engineer — Platform & Test Infrastructure at Five9 (Porto, Portugal)
+- Experience: 6+ years
+- Site: https://mforofontov.github.io/
+- Email: mykyta.forofontov@hotmail.com
+- LinkedIn: https://linkedin.com/in/mykyta-forofontov
+- GitHub: https://github.com/MForofontov
+
+## Machine-readable sources
+
+- [cv.json](https://mforofontov.github.io/cv.json): structured résumé (preferred for agents)
+- [cv.md](https://mforofontov.github.io/cv.md): full Markdown résumé
+- [PDF](https://mforofontov.github.io/CV_Mykyta_Forofontov.pdf): printable CV
+- [sitemap.xml](https://mforofontov.github.io/sitemap.xml)
+
+## Focus areas
+
+Platform engineering, test infrastructure, backend systems, Infrastructure as Code (Terraform, Ansible, AWX), Python (Django/Flask/FastAPI), React/TypeScript, observability (Grafana, Prometheus), OpenStack/VMware, CI/CD, SDET workflows.
+
+## Optional
+
+- HTML profile page: https://mforofontov.github.io/

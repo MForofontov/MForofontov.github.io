@@ -1,15 +1,18 @@
-# Mykyta Forofontov — CV Site
+# Mykyta Forofontov
 
-Personal portfolio and CV hosted on GitHub Pages.
+Personal CV site for search engines and AI agents.
 
-**Live site:** https://mforofontov.github.io/
+**Live:** https://mforofontov.github.io/
 
-## Files
+## Sources
 
-- `index.html` — main CV page with semantic HTML and JSON-LD
-- `cv.json` — machine-readable CV for search engines and AI
-- `styles.css` — site styling
-- `robots.txt` / `sitemap.xml` — SEO helpers
+| Format | URL |
+|--------|-----|
+| HTML | https://mforofontov.github.io/ |
+| JSON | https://mforofontov.github.io/cv.json |
+| Markdown | https://mforofontov.github.io/cv.md |
+| PDF | https://mforofontov.github.io/CV_Mykyta_Forofontov.pdf |
+| Agent index | https://mforofontov.github.io/llms.txt |
 
 ## Local preview
 
@@ -17,8 +20,6 @@ Personal portfolio and CV hosted on GitHub Pages.
 python3 -m http.server 8080
 ```
 
-Open http://localhost:8080
-
 ## Deploy
 
-This repo uses GitHub Pages. Push to `main` and enable Pages in repo Settings → Pages → Deploy from branch `main` / root.
+Push to `main`. GitHub Pages serves from branch `main` / root.

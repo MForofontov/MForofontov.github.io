@@ -1,4 +1,11 @@
 User-agent: *
 Allow: /
 
+# Helpful discovery endpoints for crawlers and AI agents
+Allow: /cv.json
+Allow: /cv.md
+Allow: /llms.txt
+Allow: /sitemap.xml
+Allow: /CV_Mykyta_Forofontov.pdf
+
 Sitemap: https://mforofontov.github.io/sitemap.xml
