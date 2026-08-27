@@ -3,7 +3,7 @@
 **Senior Software Engineer / SDET / DevOps**  
 Porto, Portugal  
 Email: mykyta.forofontov@hotmail.com  
-LinkedIn: https://linkedin.com/in/mykyta-forofontov  
+LinkedIn: https://www.linkedin.com/in/mykyta-forofontov-7128a31bb  
 GitHub: https://github.com/MForofontov  
 Website: https://mforofontov.github.io/
 
