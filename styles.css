@@ -51,12 +51,7 @@ body {
   font-size: 16px;
   line-height: 1.65;
   color: var(--ink);
-  background-color: var(--bg);
-  background-image:
-    radial-gradient(700px 320px at 8% 0%, rgba(107, 159, 255, 0.1), transparent 55%),
-    radial-gradient(520px 280px at 92% 4%, rgba(107, 159, 255, 0.06), transparent 50%);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background: var(--bg);
   -webkit-font-smoothing: antialiased;
 }
 
